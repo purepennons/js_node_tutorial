@@ -1,0 +1,10 @@
+{
+  "database": "mysql",
+  "host": "127.0.0.1",
+  "limit": 1000,
+  "list": ["url1", "url2", "url3"],
+  "option": {
+    "hasDB": true,
+    "something": "N/A"
+  }
+}

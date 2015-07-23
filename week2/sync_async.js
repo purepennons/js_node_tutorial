@@ -1,4 +1,8 @@
-// Synchronization
+/**
+ * Synchronization
+ * executive times = toastBread() + brewCoffee() + eatBreakfast()
+ * ignore: getBread(), getCoffee
+ */
 toastBread();
 getBread();
 brewCoffee();
@@ -7,7 +11,8 @@ eatBreakfast();
 
 /**
  * Asynchronization
- * executive times = max(toastBreadAsync(), brewCoffeeAsync()) + eatBreakfast() 
+ * executive times = max(toastBreadAsync(), brewCoffeeAsync()) + eatBreakfast()
+ * ignore: getBread(), getCoffee
  */
 toastBreadAsync(function() {
   emit('done', getBread);
