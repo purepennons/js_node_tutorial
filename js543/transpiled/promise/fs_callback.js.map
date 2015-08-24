@@ -1,0 +1,9 @@
+)]}
+{
+ "version": 3,
+ "sources": "/Users/PureWind/Documents/githubProject/summer_js/js543/promise/fs_callback.js",
+ "file": "/Users/PureWind/Documents/githubProject/summer_js/js543/transpiled/promise/fs_callback.js",
+ "sourceRoot": "",
+ "names": [],
+ "mappings": ";;AAAA,IAAI,EAAE,GAAG,OAAO,CAAC,IAAI,CAAC,CAAC;;AAEvB,EAAE,CAAC,QAAQ,CAAC,OAAO,EAAE,UAAS,GAAG,EAAE,KAAK,EAAE;AACxC,MAAG,GAAG,EAAE,OAAO;AACf,SAAO,CAAC,GAAG,CAAC,OAAO,EAAE,KAAK,CAAC,QAAQ,EAAE,CAAC,CAAC;AACvC,IAAE,CAAC,QAAQ,CAAC,OAAO,EAAE,UAAS,GAAG,EAAE,KAAK,EAAE;AACxC,QAAG,GAAG,EAAE,OAAO;AACf,WAAO,CAAC,GAAG,CAAC,OAAO,EAAE,KAAK,CAAC,QAAQ,EAAE,CAAC,CAAC;GACxC,CAAC,CAAA;CACH,CAAC,CAAC"
+}

@@ -1,0 +1,9 @@
+)]}
+{
+ "version": 3,
+ "sources": "/Users/PureWind/Documents/githubProject/summer_js/js543/generator/generator_basic.js",
+ "file": "/Users/PureWind/Documents/githubProject/summer_js/js543/transpiled/generator/generator_basic.js",
+ "sourceRoot": "",
+ "names": [],
+ "mappings": ";;iBAAU,GAAG;AAAb,SAAU,GAAG,CAAC,CAAC;MACT,CAAC;;;;;eAAS,CAAC,GAAG,EAAE;;;AAAhB,SAAC;4CACE,CAAC;;;;;;;CACT;;AAED,IAAI,CAAC,GAAG,GAAG,CAAC,EAAE,CAAC,CAAC;;AAEhB,IAAI,MAAM,GAAG,CAAC,CAAC,IAAI,EAAE,CAAC;AACtB,OAAO,CAAC,GAAG,CAAC,MAAM,CAAC,CAAC;AACpB,IAAI,GAAG,GAAG,CAAC,CAAC,IAAI,CAAC,EAAE,CAAC,CAAC;AACrB,OAAO,CAAC,GAAG,CAAC,GAAG,CAAC,CAAC"
+}

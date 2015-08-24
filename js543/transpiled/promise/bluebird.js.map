@@ -1,0 +1,9 @@
+)]}
+{
+ "version": 3,
+ "sources": "/Users/PureWind/Documents/githubProject/summer_js/js543/promise/bluebird.js",
+ "file": "/Users/PureWind/Documents/githubProject/summer_js/js543/transpiled/promise/bluebird.js",
+ "sourceRoot": "",
+ "names": [],
+ "mappings": ";;AAAA,IAAI,OAAO,GAAG,OAAO,CAAC,UAAU,CAAC,CAAC;AAClC,IAAI,EAAE,GAAG,OAAO,CAAC,YAAY,CAAC,OAAO,CAAC,IAAI,CAAC,CAAC,CAAC;;AAE7C,EAAE,CAAC,aAAa,CAAC,OAAO,CAAC,CACxB,IAAI,CAAC,UAAS,IAAI,EAAE;AACnB,SAAO,CAAC,GAAG,CAAC,IAAI,CAAC,QAAQ,EAAE,CAAC,CAAC;CAC9B,CAAC,SACI,CAAC,UAAS,GAAG,EAAE;AACnB,SAAO,CAAC,KAAK,CAAC,GAAG,CAAC,CAAC;CACpB,CAAC,CAAC"
+}

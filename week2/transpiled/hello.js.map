@@ -1,0 +1,9 @@
+)]}
+{
+ "version": 3,
+ "sources": "/Users/PureWind/Documents/githubProject/summer_js/week2/hello.js",
+ "file": "/Users/PureWind/Documents/githubProject/summer_js/week2/transpiled/hello.js",
+ "sourceRoot": "",
+ "names": [],
+ "mappings": "AAAA,YAAY,CAAA;;AAEZ,IAAI,IAAI,GAAG,OAAO,CAAC,MAAM,CAAC,CAAC;AAC3B,IAAI,IAAI,GAAG,OAAO,CAAC,IAAI,CAAC,CAAC,CAAC,CAAC;AAC3B,IAAI,MAAM,GAAG,IAAI,CAAC,YAAY,CAAC,UAAS,GAAG,EAAE,GAAG,EAAE;;AAEhD,KAAG,CAAC,KAAK,CAAC,UAAU,CAAC,CAAC;AACtB,KAAG,CAAC,GAAG,EAAE,CAAC;CACX,CAAC,CAAC;;AAEH,MAAM,CAAC,MAAM,CAAC,IAAI,CAAC,CAAC"
+}

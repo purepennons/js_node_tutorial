@@ -1,4 +1,6 @@
 // native module
+'use strict';
+
 var fs = require('fs');
 
 // module from lib
@@ -16,3 +18,4 @@ console.log('obj.b', b);
 obj.c();
 console.log('json', config);
 fun();
+//# sourceMappingURL=/Users/PureWind/Documents/githubProject/summer_js/week2/transpiled/require.js.map

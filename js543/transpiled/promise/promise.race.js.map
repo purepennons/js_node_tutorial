@@ -1,0 +1,9 @@
+)]}
+{
+ "version": 3,
+ "sources": "/Users/PureWind/Documents/githubProject/summer_js/js543/promise/promise.race.js",
+ "file": "/Users/PureWind/Documents/githubProject/summer_js/js543/transpiled/promise/promise.race.js",
+ "sourceRoot": "",
+ "names": [],
+ "mappings": ";;;AACA,SAAS,cAAc,CAAC,KAAK,EAAE;AAC3B,WAAO,IAAI,OAAO,CAAC,UAAU,OAAO,EAAE;AAClC,kBAAU,CAAC,YAAY;AACnB,mBAAO,CAAC,KAAK,CAAC,CAAC;SAClB,EAAE,KAAK,CAAC,CAAC;KACb,CAAC,CAAC;CACN;;AAED,OAAO,CAAC,IAAI,CAAC,CACT,cAAc,CAAC,CAAC,CAAC,EACjB,cAAc,CAAC,EAAE,CAAC,EAClB,cAAc,CAAC,EAAE,CAAC,EAClB,cAAc,CAAC,GAAG,CAAC,CACtB,CAAC,CAAC,IAAI,CAAC,UAAU,KAAK,EAAE;AACrB,WAAO,CAAC,GAAG,CAAC,KAAK,CAAC,CAAC;CACtB,CAAC,CAAC"
+}

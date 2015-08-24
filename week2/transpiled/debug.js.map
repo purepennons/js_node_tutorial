@@ -1,0 +1,9 @@
+)]}
+{
+ "version": 3,
+ "sources": "/Users/PureWind/Documents/githubProject/summer_js/week2/debug.js",
+ "file": "/Users/PureWind/Documents/githubProject/summer_js/week2/transpiled/debug.js",
+ "sourceRoot": "",
+ "names": [],
+ "mappings": ";;AAAA,OAAO,CAAC,OAAO,CAAC,CAAC,MAAM,CAAC,EAAE,CAAC,CAAC;AAC5B,IAAI,KAAK,GAAG,OAAO,CAAC,OAAO,CAAC,CAAC,OAAO,CAAC,CAAC;AACtC,IAAI,IAAI,GAAG,OAAO,CAAC,aAAa,CAAC,CAAC;;AAElC,KAAK,CAAC,OAAO,EAAE,SAAS,CAAC,CAAC;AAC1B,IAAI,EAAE,CAAC"
+}
