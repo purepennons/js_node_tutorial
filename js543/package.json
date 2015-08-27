@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha --compilers js:babel/register"
+    "test": "./node_modules/.bin/mocha --compilers js:babel/register",
+    "test-cov": "./node_modules/.bin/babel-node ./node_modules/.bin/isparta cover ./node_modules/.bin/_mocha"
   },
   "author": "",
   "license": "ISC",
@@ -12,6 +13,8 @@
     "babel": "^5.8.21",
     "chai": "^3.2.0",
     "chai-as-promised": "^5.1.0",
+    "isparta": "^3.0.3",
+    "istanbul": "^0.3.18",
     "mocha": "^2.2.5"
   }
 }
