@@ -75,6 +75,12 @@ describe('#readFileAsync()', function () {
     });
   });
 
+  // test promise function by using chai-as-promised
+  it('chai-as-promised demo', function () {
+    expect(readFileAsync('not_exist_file')).be.rejected;
+    expect(readFileAsync('./test/testfile.json')).be.fulfilled;
+  });
+
   after(function () {
     // do something
   });
