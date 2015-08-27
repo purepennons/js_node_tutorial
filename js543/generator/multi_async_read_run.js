@@ -1,4 +1,4 @@
-// multi_async
+// multi_async_run
 var Promise = require('bluebird');
 var fs = Promise.promisifyAll(require('fs'));
 
@@ -16,17 +16,23 @@ function* gen() {
   return;
 }
 
+// executor
+function run(gen){
+  var g = gen();
+
+  function next(data){
+    var result = g.next(data);
+    if (result.done) return result.value;
+    result.value.then(function(data){
+      next(data);
+    })
+    .catch( function(err) {
+      g.throw(err);
+    });
+  }
+
+  next();
+}
+
 // 執行
-var g = gen();
-g.next().value.then( function(data1) {
-  return g.next(data1).value;
-})
-.then( function(data2) {
-  return g.next(data2).value;
-})
-.then( function(data3) {
-  return g.next(data3).value;
-})
-.catch( function(err) {
-  g.throw(err);
-});
+run(gen);

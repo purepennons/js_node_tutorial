@@ -1,6 +1,7 @@
-// multi_async
+// co
 var Promise = require('bluebird');
 var fs = Promise.promisifyAll(require('fs'));
+var co = require('co');
 
 function* gen() {
   try {
@@ -13,20 +14,14 @@ function* gen() {
   } catch(err) {
     console.error('居然抓的到！！', err);
   }
-  return;
+  return 'finish';
 }
 
-// 執行
-var g = gen();
-g.next().value.then( function(data1) {
-  return g.next(data1).value;
-})
-.then( function(data2) {
-  return g.next(data2).value;
-})
-.then( function(data3) {
-  return g.next(data3).value;
+// run
+co(gen)
+.then( function(result) {
+  console.log(result);
 })
 .catch( function(err) {
-  g.throw(err);
+  console.error(err);
 });

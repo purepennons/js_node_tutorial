@@ -1,9 +1,10 @@
-// multi_async
+// co
 'use strict';
 
 var marked0$0 = [gen].map(regeneratorRuntime.mark);
 var Promise = require('bluebird');
 var fs = Promise.promisifyAll(require('fs'));
+var co = require('co');
 
 function gen() {
   var data1, data2, data3;
@@ -42,7 +43,7 @@ function gen() {
         console.error('居然抓的到！！', context$1$0.t0);
 
       case 18:
-        return context$1$0.abrupt('return');
+        return context$1$0.abrupt('return', 'finish');
 
       case 19:
       case 'end':
@@ -51,15 +52,10 @@ function gen() {
   }, marked0$0[0], this, [[0, 15]]);
 }
 
-// 執行
-var g = gen();
-g.next().value.then(function (data1) {
-  return g.next(data1).value;
-}).then(function (data2) {
-  return g.next(data2).value;
-}).then(function (data3) {
-  return g.next(data3).value;
+// run
+co(gen).then(function (result) {
+  console.log(result);
 })['catch'](function (err) {
-  g['throw'](err);
+  console.error(err);
 });
-//# sourceMappingURL=/Users/PureWind/Documents/githubProject/summer_js/js543/transpiled/generator/multi_async_read.js.map
+//# sourceMappingURL=/Users/PureWind/Documents/githubProject/summer_js/js543/transpiled/generator/co.js.map

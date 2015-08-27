@@ -1,0 +1,9 @@
+)]}
+{
+ "version": 3,
+ "sources": "/Users/PureWind/Documents/githubProject/summer_js/js543/testing/mocha_bdd_template.js",
+ "file": "/Users/PureWind/Documents/githubProject/summer_js/js543/transpiled/testing/mocha_bdd_template.js",
+ "sourceRoot": "",
+ "names": [],
+ "mappings": ";;;;AAEA,QAAQ,CAAC,QAAQ,EAAE,YAAW;AAC5B,MAAI,CAAC,OAAO,CAAC,IAAI,CAAC,CAAC;AACnB,QAAM,CAAC,UAAS,IAAI,EAAE;;AAEpB,QAAI,EAAE,CAAC;GACR,CAAC,CAAC;;AAEH,OAAK,CAAC,UAAS,IAAI,EAAE;;AAEnB,QAAI,EAAE,CAAC;GACR,CAAC,CAAC;;AAEH,YAAU,CAAC,UAAS,IAAI,EAAE;;AAExB,QAAI,EAAE,CAAC;GACR,CAAC,CAAC;;AAEH,WAAS,CAAC,UAAS,IAAI,EAAE;;AAEvB,QAAI,EAAE,CAAC;GACR,CAAC,CAAC;;AAEH,IAAE,CAAC,8CAA8C,EAAE,UAAS,IAAI,EAAE;;AAEhE,QAAI,EAAE,CAAC;GACR,CAAC,CAAC;CACJ,CAAC,CAAC"
+}

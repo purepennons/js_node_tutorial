@@ -1,4 +1,4 @@
-// multi_async
+// multi_async_run
 'use strict';
 
 var marked0$0 = [gen].map(regeneratorRuntime.mark);
@@ -51,15 +51,23 @@ function gen() {
   }, marked0$0[0], this, [[0, 15]]);
 }
 
+// executor
+function run(gen) {
+  var g = gen();
+
+  function next(data) {
+    var result = g.next(data);
+    if (result.done) return result.value;
+    result.value.then(function (data) {
+      next(data);
+    })['catch'](function (err) {
+      g['throw'](err);
+    });
+  }
+
+  next();
+}
+
 // 執行
-var g = gen();
-g.next().value.then(function (data1) {
-  return g.next(data1).value;
-}).then(function (data2) {
-  return g.next(data2).value;
-}).then(function (data3) {
-  return g.next(data3).value;
-})['catch'](function (err) {
-  g['throw'](err);
-});
-//# sourceMappingURL=/Users/PureWind/Documents/githubProject/summer_js/js543/transpiled/generator/multi_async_read.js.map
+run(gen);
+//# sourceMappingURL=/Users/PureWind/Documents/githubProject/summer_js/js543/transpiled/generator/multi_async_read_run.js.map
